@@ -7,12 +7,12 @@ import {
 } from "../controllers/product.controller.js";
 const router = express.Router();
 
-app.post("/", postProduct);
+router.post("/", postProduct);
 
-app.put("/:id", updateProduct);
+router.put("/:id", updateProduct);
 
-app.delete("/:id", deleteProduct);
+router.delete("/:id", deleteProduct);
 
-app.get("/", getProducts);
+router.get("/", getProducts);
 
 export default router;

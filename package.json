@@ -2,7 +2,7 @@
   "name": "the-store",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "serve.js",
   "scripts": {
     "dev": "nodemon Backend/server.js"
   },
