@@ -1,6 +1,6 @@
-# 🛍️ The Store API (Backend)
+# The Store API (Backend)
 
-## 📝 Description
+## Description
 
 This is a **robust and scalable RESTful API** designed to power a modern e-commerce platform. Built with **Node.js** and the **Express** framework, it strictly adheres to the **Model-View-Controller (MVC)** architectural pattern, ensuring clean separation of concerns, maintainability, and reusability. Data is persisted using **MongoDB**, leveraged through the **Mongoose** ODM.
 
@@ -8,7 +8,7 @@ The API provides core functionalities for managing products and interacting with
 
 ---
 
-## ✨ Features
+## Features
 
 * **Product Management (CRUD):** Full support for creating, reading, updating, and deleting products.
 * **MongoDB Integration:** Uses Mongoose for schema definition, validation, and object data modeling.
@@ -18,7 +18,7 @@ The API provides core functionalities for managing products and interacting with
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -31,7 +31,7 @@ The API provides core functionalities for managing products and interacting with
 
 ---
 
-## 🚀 Installation and Setup
+## Installation and Setup
 
 Follow these steps to get your development environment running
 
@@ -68,7 +68,7 @@ npm run dev
 ```
 The API will be available at: http://localhost:5000/
 
-🌐 API Endpoints (Product Module)
+API Endpoints (Product Module)
 Assuming the base path is /api/products, the API supports standard REST operations for the product resource
 ```
 Method,Endpoint,Description
@@ -78,7 +78,7 @@ POST,/api/products,Create a new product
 PUT,/api/products/:id,Update an existing product by its ID
 DELETE,/api/products/:id,Delete a specific product by its ID
 ```
-📂 Project Structure
+Project Structure
 The project follows the MVC pattern for clean organization:
 ```
 Backend/
@@ -92,5 +92,7 @@ Backend/
 │   └── product.routes.js   # Defines API endpoints and links to controllers
 └── server.js           # Application entry point (server initialization)
 ```
-📜 License
+
+```
 This project is licensed under the MIT License
+```
